@@ -132,12 +132,15 @@ export const characterData = {
 
   Albedo: { name: 'Albedo', element: 'Geo', weapon: 'Sword' },
   AratakiItto: { name: 'Itto', element: 'Geo', weapon: 'Claymore' },
+  Linnea: { name: 'Linnea', element: 'Geo', weapon: 'Bow' },
   Navia: { name: 'Navia', element: 'Geo', weapon: 'Claymore' },
   Xilonen: { name: 'Xilonen', element: 'Geo', weapon: 'Sword' },
   Zhongli: { name: 'Zhongli', element: 'Geo', weapon: 'Polearm' },
+  Zibai: { name: 'Zibai', element: 'Geo', weapon: 'Sword' },
 
   Chiori: { name: 'Chiori', element: 'Geo', weapon: 'Sword' },
   Gorou: { name: 'Gorou', element: 'Geo', weapon: 'Bow' },
+  Illuga: { name: 'Illuga', element: 'Geo', weapon: 'Polearm' },
   Kachina: { name: 'Kachina', element: 'Geo', weapon: 'Polearm' },
   Ningguang: { name: 'Ningguang', element: 'Geo', weapon: 'Catalyst' },
   Noelle: { name: 'Noelle', element: 'Geo', weapon: 'Claymore' },
