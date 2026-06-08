@@ -114,6 +114,7 @@ const paths = {
     RaidenShogun: 'Raiden Shogun',
     Razor: 'Razor',
     Rosaria: 'Rosaria',
+    Sandrone: 'Sandrone',
     SangonomiyaKokomi: 'Kokomi',
     Sayu: 'Sayu',
     Sethos: 'Sethos',

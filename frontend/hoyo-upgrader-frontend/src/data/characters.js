@@ -54,6 +54,7 @@ export const characterData = {
   Xinyan: { name: 'Xinyan', element: 'Pyro', weapon: 'Claymore' },
   Yanfei: { name: 'Yanfei', element: 'Pyro', weapon: 'Catalyst' },
 
+  Sandrone: { name: 'Sandrone', element: 'Cryo', weapon: 'Claymore' },
   Citlali: { name: 'Citlali', element: 'Cryo', weapon: 'Catalyst' },
   Eula: { name: 'Eula', element: 'Cryo', weapon: 'Claymore' },
   Escoffier: { name: 'Escoffier', element: 'Cryo', weapon: 'Polearm' },
