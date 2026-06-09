@@ -1,4 +1,4 @@
-const IMAGE_CACHE_VERSION = 1;
+const IMAGE_CACHE_VERSION = 2;
 
 const paths = {
   DOCUMENTATION: 'documentation',
@@ -112,6 +112,7 @@ const paths = {
     Noelle: 'Noelle',
     Ororon: 'Ororon',
     Qiqi: 'Qiqi',
+    Prune: 'Prune',
     RaidenShogun: 'Raiden Shogun',
     Razor: 'Razor',
     Rosaria: 'Rosaria',

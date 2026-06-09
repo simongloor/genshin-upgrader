@@ -126,6 +126,7 @@ export const characterData = {
   Jahoda: { name: 'Jahoda', element: 'Pyro', weapon: 'Unknown' },
   LanYan: { name: 'LanYan', element: 'Anemo', weapon: 'Catalyst' },
   Lynette: { name: 'Lynette', element: 'Anemo', weapon: 'Sword' },
+  Prune: { name: 'Prune', element: 'Anemo', weapon: 'Catalyst' },
   Sayu: { name: 'Sayu', element: 'Anemo', weapon: 'Claymore' },
   ShikanoinHeizou: { name: 'Heizou', element: 'Anemo', weapon: 'Catalyst' },
   Sucrose: { name: 'Sucrose', element: 'Anemo', weapon: 'Catalyst' },
