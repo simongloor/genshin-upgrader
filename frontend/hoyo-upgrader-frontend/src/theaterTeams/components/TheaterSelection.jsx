@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import paths from '../../data/paths';
+import paths, { getElementImgPath } from '../../data/paths';
 
 import Box from '../../components/Box';
 import '../styles/TheaterSelection.scss';
@@ -52,7 +52,7 @@ export default function TheaterSelection({
                     key={element}
                   >
                     <img
-                      src={`${process.env.PUBLIC_URL}/genshin/elements/${element}.png`}
+                      src={getElementImgPath(element)}
                       alt={element}
                     />
                   </div>

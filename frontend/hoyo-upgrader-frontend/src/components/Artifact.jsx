@@ -3,6 +3,7 @@ import React from 'react';
 // import { getArtifactSubstats, getArtifactTier } from '../data/substats';
 
 import iconTrash from '../theme/trash.svg';
+import { getArtifactImgPath } from '../data/paths';
 import '../styles/Artifact.scss';
 
 export default function Artifact({
@@ -67,7 +68,7 @@ export default function Artifact({
       className={`Artifact tile ${className || ''} ${displayedSet} ${displayedPiece}`}
     >
       <img
-        src={`${process.env.PUBLIC_URL}/genshin/artifacts/${displayedSet}/${displayedPiece}.png`}
+        src={getArtifactImgPath(displayedSet, displayedPiece)}
         alt={displayedPiece}
       />
       { widget }

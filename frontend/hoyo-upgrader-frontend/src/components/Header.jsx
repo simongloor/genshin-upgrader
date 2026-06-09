@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 
 import iconChevronDown from '../theme/chevron_down.svg';
 import iconChevronUp from '../theme/chevron_up.svg';
+import { getStaticImagePath } from '../data/paths';
 import '../styles/Header.scss';
 import Box from './Box';
 
@@ -22,7 +23,7 @@ export default function Header({
         <div>
           <div className="brand">
             <img
-              src={`${process.env.PUBLIC_URL}/logo.png`}
+              src={getStaticImagePath('/logo.png')}
               alt="noblesse logo"
             />
             <h1>Genshin <strong>Up</strong>grader</h1>

@@ -2,7 +2,7 @@
 import React from 'react';
 import ownedCharacters from '../data/mock/ownedCharacters';
 import characters from '../data/characters';
-import paths from '../../data/paths';
+import paths, { getRoleImgPath } from '../../data/paths';
 import Box from '../../components/Box';
 import SpacerPiece from '../../components/SpacerPiece';
 import ElementCharacters from './ElementCharacters';
@@ -48,7 +48,7 @@ export default function ElementSelection({
               new Array(MaxNumberOfCharactersByRole[role]).fill(null).map((_, index) => (
                 <img
                   className={`role tile ${role}`}
-                  src={`${process.env.PUBLIC_URL}/genshin/roles/${role}.png`}
+                  src={getRoleImgPath(role)}
                   alt={role}
                   // eslint-disable-next-line react/no-array-index-key
                   key={`role-${index}`}

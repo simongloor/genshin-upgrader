@@ -1,3 +1,5 @@
+const IMAGE_CACHE_VERSION = 1;
+
 const paths = {
   DOCUMENTATION: 'documentation',
   EDIT_BUILDS: 'builds',
@@ -290,4 +292,12 @@ export function getStatText({ key, value }) {
   return `${name}+${value}${unit}`;
 }
 
-export const getCharacterImgPath = (character) => `${process.env.PUBLIC_URL}/genshin/characters/${character}.png`;
+export const getStaticImagePath = (path) => {
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+  return `${process.env.PUBLIC_URL}${normalizedPath}?v=${IMAGE_CACHE_VERSION}`;
+};
+
+export const getCharacterImgPath = (character) => getStaticImagePath(`/genshin/characters/${character}.png`);
+export const getArtifactImgPath = (set, piece) => getStaticImagePath(`/genshin/artifacts/${set}/${piece}.png`);
+export const getElementImgPath = (element) => getStaticImagePath(`/genshin/elements/${element}.png`);
+export const getRoleImgPath = (role) => getStaticImagePath(`/genshin/roles/${role}.png`);

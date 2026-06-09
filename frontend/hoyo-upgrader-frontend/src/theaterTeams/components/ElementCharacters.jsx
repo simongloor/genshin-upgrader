@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import paths, { getCharacterImgPath } from '../../data/paths';
+import paths, { getCharacterImgPath, getElementImgPath } from '../../data/paths';
 import '../styles/ElementCharacters.scss';
 import characters from '../data/characters';
 import ownedCharacters from '../data/mock/ownedCharacters';
@@ -16,7 +16,7 @@ export default function ElementCharacters({
     >
       <img
         className="tile"
-        src={`${process.env.PUBLIC_URL}/genshin/elements/${element}.png`}
+        src={getElementImgPath(element)}
         alt={element}
       />
       {
