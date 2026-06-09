@@ -33,7 +33,6 @@ export function getEmptyBuild() {
 }
 
 export const characterData = {
-  Alice: { name: 'Alice', element: 'Pyro', weapon: 'Catalyst' },
   Arlecchino: { name: 'Arlecchino', element: 'Pyro', weapon: 'Polearm' },
   Dehya: { name: 'Dehya', element: 'Pyro', weapon: 'Claymore' },
   Diluc: { name: 'Diluc', element: 'Pyro', weapon: 'Claymore' },
@@ -42,26 +41,25 @@ export const characterData = {
   Klee: { name: 'Klee', element: 'Pyro', weapon: 'Catalyst' },
   Lyney: { name: 'Lyney', element: 'Pyro', weapon: 'Bow' },
   Mavuika: { name: 'Mavuika', element: 'Pyro', weapon: 'Claymore' },
+  Nicole: { name: 'Nicole', element: 'Cryo', weapon: 'Unknown' },
   Yoimiya: { name: 'Yoimiya', element: 'Pyro', weapon: 'Bow' },
 
   Amber: { name: 'Amber', element: 'Pyro', weapon: 'Bow' },
   Bennett: { name: 'Bennett', element: 'Pyro', weapon: 'Sword' },
   Chevreuse: { name: 'Chevreuse', element: 'Pyro', weapon: 'Polearm' },
   Gaming: { name: 'Gaming', element: 'Pyro', weapon: 'Claymore' },
-  Jahoda: { name: 'Jahoda', element: 'Pyro', weapon: 'Unknown' },
   Thoma: { name: 'Thoma', element: 'Pyro', weapon: 'Polearm' },
   Xiangling: { name: 'Xiangling', element: 'Pyro', weapon: 'Polearm' },
   Xinyan: { name: 'Xinyan', element: 'Pyro', weapon: 'Claymore' },
   Yanfei: { name: 'Yanfei', element: 'Pyro', weapon: 'Catalyst' },
 
-  Sandrone: { name: 'Sandrone', element: 'Cryo', weapon: 'Claymore' },
   Citlali: { name: 'Citlali', element: 'Cryo', weapon: 'Catalyst' },
   Eula: { name: 'Eula', element: 'Cryo', weapon: 'Claymore' },
   Escoffier: { name: 'Escoffier', element: 'Cryo', weapon: 'Polearm' },
   Ganyu: { name: 'Ganyu', element: 'Cryo', weapon: 'Bow' },
   KamisatoAyaka: { name: 'Ayaka', element: 'Cryo', weapon: 'Sword' },
-  Nicole: { name: 'Nicole', element: 'Cryo', weapon: 'Unknown' },
   Qiqi: { name: 'Qiqi', element: 'Cryo', weapon: 'Sword' },
+  Sandrone: { name: 'Sandrone', element: 'Cryo', weapon: 'Claymore' },
   Shenhe: { name: 'Shenhe', element: 'Cryo', weapon: 'Polearm' },
   Skirk: { name: 'Skirk', element: 'Cryo', weapon: 'Sword' },
   Wriothesley: { name: 'Wriothesley', element: 'Cryo', weapon: 'Catalyst' },
@@ -125,6 +123,7 @@ export const characterData = {
 
   Faruzan: { name: 'Faruzan', element: 'Anemo', weapon: 'Bow' },
   Ifa: { name: 'Ifa', element: 'Anemo', weapon: 'Catalyst' },
+  Jahoda: { name: 'Jahoda', element: 'Pyro', weapon: 'Unknown' },
   LanYan: { name: 'LanYan', element: 'Anemo', weapon: 'Catalyst' },
   Lynette: { name: 'Lynette', element: 'Anemo', weapon: 'Sword' },
   Sayu: { name: 'Sayu', element: 'Anemo', weapon: 'Claymore' },
