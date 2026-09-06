@@ -105,6 +105,7 @@ const paths = {
     Mavuika: 'Mavuika',
     Mika: 'Mika',
     Mitya: 'Mitya',
+    Mizuki: 'Mizuki',
     Mona: 'Mona',
     Mualani: 'Mualani',
     Nahida: 'Nahida',

@@ -123,6 +123,7 @@ export const characterData = {
   Chasca: { name: 'Chasca', element: 'Anemo', weapon: 'Bow' },
   Jean: { name: 'Jean', element: 'Anemo', weapon: 'Sword' },
   KaedeharaKazuha: { name: 'Kazuha', element: 'Anemo', weapon: 'Sword' },
+  Mizuki: { name: 'Mizuki', element: 'Anemo', weapon: 'Catalyst' },
   Varka: { name: 'Varka', element: 'Anemo', weapon: 'Claymore' },
   Venti: { name: 'Venti', element: 'Anemo', weapon: 'Bow' },
   Vesna: { name: 'Vesna', element: 'Anemo', weapon: 'Sword' },
